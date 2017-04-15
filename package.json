@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "create": "webpack"
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/asimonia/github-battle.git"
   },
   "babel": {
-    "presets": ["env", "react"]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "author": "",
   "license": "ISC",
